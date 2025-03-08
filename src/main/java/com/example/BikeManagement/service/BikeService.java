@@ -23,8 +23,4 @@ public class BikeService {
         return bikeRepo.save(bike);
     }
 
-
-    public int getvalue(Integer id) {
-        return id;
-    }
 }
