@@ -28,5 +28,10 @@ public class BikeController {
         return new ResponseEntity<>(id, HttpStatus.OK);
     }
 
+    @GetMapping("/wel")
+    public String home(){
+        return "Home";
+    }
+
 
 }
